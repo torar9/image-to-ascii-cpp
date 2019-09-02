@@ -10,7 +10,7 @@ using namespace cimg_library;
 
 int main()
 {
-    ImageConverter con("example.png");//place in debug folder
+    ImageConverter con("example.png");//don't forget to place images to debug folder
     con.greyScaleByWeight();
     con.saveEditedImage("result.png");
 
