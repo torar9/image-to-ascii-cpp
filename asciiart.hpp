@@ -18,7 +18,7 @@ private:
 public:
     AsciiArt();
     std::string toAscii(CImg<unsigned int> img);
-    char assignCharacter(unsigned int value);
+    char assignCharacter(int value);
 };
 
 #endif // ASCIIART_HPP
