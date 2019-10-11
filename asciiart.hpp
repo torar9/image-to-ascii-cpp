@@ -5,8 +5,8 @@
 #include <CImg.h>
 #include <string>
 
-#define X_DIM 6
-#define Y_DIM 10
+#define X_DIM 4
+#define Y_DIM 8
 
 using namespace cimg_library;
 

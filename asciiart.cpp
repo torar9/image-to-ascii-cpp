@@ -2,7 +2,7 @@
 
 AsciiArt::AsciiArt()
 {
-    charList = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$";//Characters corresponding to pixel value in a range: 0-255
+    charList = "MNHQ$OC?7>!:-;. ";//Characters corresponding to pixel value in a range: 0-255
 }
 
 std::string AsciiArt::toAscii(CImg<unsigned int> img)
